@@ -1,4 +1,4 @@
-// TODO: Write code to define and export the Employee class
+// Define and export the Employee class
 
 class Employee {
     constructor(name, id, email){
@@ -19,8 +19,5 @@ class Employee {
         return "Employee";
     }
 }
-
-const blair = new Employee("Blair", 1, "blair@waldorf.com");
-console.log(blair);
 
 module.exports = Employee;
